@@ -8,7 +8,6 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/header.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -44,20 +43,24 @@
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="chatt__column">
-              <img
-                class="chat__avatar g-avatar"
-                src="images/profile_yeop.jpg"
-              />
-              <div class="chatt__content">
-                <span class="chat__username">
-                  엽
-                </span>
-                <span class="chatt__preview">짹 갈것입다</span>
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img
+                  src="images/profile_bong.jpg"
+                  class="g-avatar friend__avatar"
+                />
+                <div class="friend__content">
+                  <span class="friend__name">Anna</span>
+                  <span class="friend__bottom-text">Going home</span>
+                </div>
               </div>
-            </div>
-            <div class="chatt__column">
-              <span class="chatt__timestamp">20:19</span>
+              <div class="friend__column">
+                <div class="friend__now-listening">
+                  <span class="chat__timestamp">
+                    May 10
+                  </span>
+                </div>
+              </div>
             </div>
           </a>
         </li>
@@ -72,6 +75,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
