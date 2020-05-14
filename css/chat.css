@@ -82,10 +82,6 @@
   margin-bottom: 20px;
 }
 
-.message .message__content {
-  padding: 15px;
-}
-
 .incoming-message {
   align-self: flex-start;
 }
@@ -100,7 +96,7 @@
 }
 
 .incoming-message .message__author {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   display: block;
   font-weight: 600;
   font-size: 12px;
